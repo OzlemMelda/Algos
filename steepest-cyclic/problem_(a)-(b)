@@ -1,0 +1,13 @@
+Consider the following problem:
+
+max f(x(1), x(2)) = 2*x(1)*x(2) + 2*x(2) − x(1)*x(1)-2*x(2)*x(2)
+
+Solve the problem using the following methods. Start at point x(0) = (0, 0). 
+Do the methods converge to the same point?
+
+(a) The method of steepest ascent: Take || ∇f(x(k)) || < ε = 0.001 as the stopping
+criterion. At each iteration k, report x(k), f(x(k)), ∇f(x(k)), || ∇f(x(k))||, t(k) in this specific
+order.
+
+(b) Cyclic coordinate method: Take || x(k+1) − x(k)|| < ε = 0.001 as the stopping
+criterion. At each iteration k, report x(k), f(x(k)), y(j) , λ(j) , y(j+1) in this specific order.
